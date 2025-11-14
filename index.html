@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Jaime Moreno Fernández, estudiante de SMR enfocado en Desarrollo Web, Redes y Sistemas. Proyectos en HTML, CSS y Cisco Packet Tracer.">
+    <title>Jaime Moreno Fernández - Portafolio Web & Sistemas</title>
+
+    <link rel="stylesheet" href="PY.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous"> 
+</head>
+
+<body>
+
+    <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false">
+        <span class="fas fa-bars"></span>
+    </button>
+
+    <header id="inicio">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#inicio" class="logo-link" aria-label="Volver al inicio">
+                    <span class="logo-text">JMF</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu" role="menu">
+                <li role="menuitem"><a href="#inicio">Inicio</a></li>
+                <li role="menuitem"><a href="#sobre-mi">Sobre Mí</a></li>
+                <li role="menuitem"><a href="#proyectos">Proyectos</a></li>
+                <li role="menuitem"><a href="#habilidades">Habilidades</a></li>
+                <li role="menuitem"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="hero-banner" role="banner">
+            <div class="hero-content">
+                <h1 class="hero-title">Jaime Moreno Fernández</h1>
+                <p class="hero-subtitle">Estudiante de SMR | Futuro Técnico en Redes</p>
+                <a href="#contacto" class="btn-hero" role="button">Contáctame</a>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="sobre-mi" class="section">
+            <div class="container">
+                <h2 class="section-title">Sobre Mí</h2>
+                
+                <div class="bio-card">
+                    <div class="bio-content">
+                        <p>
+                            ¡Hola! Soy <strong>Jaime Moreno Fernández</strong>, estudiante de segundo curso del Ciclo
+                            Formativo de Grado Medio en <strong>Sistemas Microinformáticos y Redes (SMR)</strong>.
+                            Actualmente estoy desarrollando mis habilidades en el diseño y desarrollo web, aprendiendo
+                            a crear sitios modernos y funcionales con HTML y CSS.
+                        </p>
+                        <p>
+                            Mi verdadera pasión está en el mundo de las <strong>redes y sistemas</strong>. Por eso,
+                            tengo como objetivo continuar mi formación cursando el Ciclo Superior de <strong>Administración
+                            de Sistemas Informáticos en Red (ASIR)</strong>, donde podré profundizar en configuración de
+                            servidores, seguridad informática, administración de redes empresariales y todo el ecosistema
+                            de infraestructuras IT que tanto me apasiona.
+                        </p>
+                        <p>
+                            Fuera del ámbito tecnológico, soy una persona muy activa y el <strong>deporte</strong> forma
+                            parte importante de mi vida. Practico regularmente deporte, lo cual me ayuda a mantener el
+                            equilibrio, la disciplina y la constancia que también aplico en mis estudios y proyectos.
+                            Creo firmemente que la mentalidad deportiva de superación y trabajo en equipo se traduce
+                            perfectamente al mundo de la tecnología.
+                        </p>
+                        <p>
+                            Estoy en constante aprendizaje, buscando siempre nuevos retos que me permitan crecer tanto
+                            profesional como personalmente. Mi objetivo es convertirme en un profesional cualificado capaz
+                            de gestionar infraestructuras tecnológicas complejas y aportar soluciones eficientes a las
+                            empresas.
+                        </p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/" target="_blank" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/" target="_blank" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="social-icon" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:jaime.moreno@ejemplo.com" class="social-icon" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr/>
+
+        <section id="proyectos" class="section section-dark">
+            <div class="container">
+                <h2 class="section-title">Mis Proyectos</h2>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="packet.webp" alt="Captura del proyecto Packet Tracer de la red del colegio" class="project-img">
+                        </div>
+                        <h3 class="project-title">Packet Tracer sobre nuestro colegio</h3>
+                        <p class="project-description">
+                            En este proyecto hicimos un packet tracer de la red de nuestro colegio. Configuramos todas las plantas según el número de PC's y los switches que había en cada planta.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Cisco Packet Tracer</span>
+                            <span class="tech-badge">Redes LAN</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="we.jpg" alt="Captura de la instalación de Windows y Ubuntu" class="project-img">
+                        </div>
+                        <h3 class="project-title">Instalación de Sistemas Operativos</h3>
+                        <p class="project-description">
+                            Implementación y configuración de sistemas operativos de escritorio como **Windows y Ubuntu** en entornos virtuales y físicos. Cubriendo particiones, drivers y configuraciones iniciales.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Windows</span>
+                            <span class="tech-badge">Ubuntu/Linux</span>
+                            <span class="tech-badge">Virtualización</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="presupuesto.png" alt="Diagrama de red y tabla de presupuesto" class="project-img">
+                        </div>
+                        <h3 class="project-title">Diseño de Red y Presupuesto IT</h3>
+                        <p class="project-description">
+                            Diseño lógico de una red empresarial (subredes, topología) y elaboración de un **presupuesto detallado** para la adquisición de hardware (servidores, routers, switches) y software.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Subnetting</span>
+                            <span class="tech-badge">Documentación</span>
+                            <span class="tech-badge">Análisis de Costos</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="html.jpg" alt="Captura de una página web con HTML y CSS" class="project-img">
+                        </div>
+                        <h3 class="project-title">Creación de Páginas Web Estáticas</h3>
+                        <p class="project-description">
+                            Maquetación y desarrollo de sitios web completos, aplicando principios de diseño responsive y utilizando **HTML5** para la estructura semántica y **CSS3** para el estilo moderno.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">Responsive Design</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="descarga.png" alt="Captura de la interfaz de GitHub" class="project-img">
+                        </div>
+                        <h3 class="project-title">Uso de Sistemas de Control de Versiones</h3>
+                        <p class="project-description">
+                            Manejo avanzado de **Git y GitHub** para la gestión colaborativa y el control de versiones de código fuente, incluyendo ramas, merges y pull requests.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Git</span>
+                            <span class="tech-badge">GitHub</span>
+                            <span class="tech-badge">Terminal</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="web.jpg" alt="Captura del diseño del portafolio web" class="project-img">
+                        </div>
+                        <h3 class="project-title">Portafolio Web (Este Sitio)</h3>
+                        <p class="project-description">
+                            Este mismo portafolio profesional con navegación por anclas, efectos avanzados y diseño moderno y limpio, utilizando los conocimientos de diseño web adquiridos.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr/>
+
+        <section id="habilidades" class="section">
+            <div class="container">
+                <h2 class="section-title">Habilidades y Conocimientos</h2>
+                
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="skill-header">
+                            <i class="fas fa-file-word skill-icon" style="color: #2b579a;"></i>
+                            <h3>Microsoft Word</h3>
+                        </div>
+                        <p class="skill-description">
+                            Dominio avanzado en la creación y edición de documentos, formatos profesionales, tablas de contenido y combinación de correspondencia.
+                        </p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-header">
+                            <i class="fas fa-file-excel skill-icon" style="color: #217346;"></i>
+                            <h3>Microsoft Excel</h3>
+                        </div>
+                        <p class="skill-description">
+                            Manejo de hojas de cálculo, fórmulas, funciones lógicas y financieras, creación de gráficos dinámicos y análisis de datos básicos.
+                        </p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-header">
+                            <i class="fab fa-html5 skill-icon"></i>
+                            <h3>HTML5</h3>
+                        </div>
+                        <p class="skill-description">
+                            Lenguaje de marcado para estructurar contenido web de forma semántica y accesible. Dominio de etiquetas y formularios.
+                        </p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-header">
+                            <i class="fab fa-css3-alt skill-icon"></i>
+                            <h3>CSS3</h3>
+                        </div>
+                        <p class="skill-description">
+                            Hojas de estilo para diseño responsive, animaciones, y layouts modernos. Experiencia con Flexbox y Grid.
+                        </p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%;">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-header">
+                            <i class="fas fa-network-wired skill-icon"></i>
+                            <h3>Cisco Packet Tracer</h3>
+                        </div>
+                        <p class="skill-description">
+                            Diseño, simulación y configuración de redes LAN y WAN, incluyendo routers, switches y direccionamiento IP.
+                        </p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill" style="opacity: 0; pointer-events: none;">
+                        <div class="skill-header">
+                            <i class="fas fa-code skill-icon"></i>
+                            <h3></h3>
+                        </div>
+                        <p class="skill-description"></p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 0%;">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr/>
+
+        <section id="contacto" class="section section-dark">
+            <div class="container">
+                <h2 class="section-title">¿Quieres contratarme? ¡Hablemos!</h2>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" action="mailto:jaime.moreno@ejemplo.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input
+                                type="text"
+                                id="nombre"
+                                name="nombre"
+                                placeholder="Tu nombre completo"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="tu@email.com"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea
+                                id="mensaje"
+                                name="mensaje"
+                                rows="6"
+                                placeholder="Escribe tu mensaje aquí..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Jaime Moreno Fernández. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.getElementById('nav-menu');
+
+            navToggle.addEventListener('click', () => {
+                const isExpanded = navToggle.getAttribute('aria-expanded') === 'true' || false;
+                
+                // Alternar la clase 'active' y el estado ARIA
+                navMenu.classList.toggle('active');
+                navToggle.setAttribute('aria-expanded', !isExpanded);
+            });
+
+            // Cerrar el menú al hacer clic en un enlace (solo en móvil)
+            navMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (navMenu.classList.contains('active')) {
+                        navMenu.classList.remove('active');
+                        navToggle.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
